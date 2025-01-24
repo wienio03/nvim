@@ -1,0 +1,11 @@
+require("wienio.lazy")
+require("wienio.plugins.telescope")
+require("wienio.plugins.dressing")
+require("wienio.plugins.nvim-cmp")
+require("wienio.plugins.lsp.mason")
+require("wienio.plugins.lsp.lspconfig")
+require("wienio.plugins.toggleterm")
+require("wienio.plugins.setup.options")
+require("wienio.plugins.setup.keymap")
+vim.cmd("colorscheme industry")
+
