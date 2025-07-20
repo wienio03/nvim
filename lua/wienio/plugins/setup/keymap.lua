@@ -1,6 +1,7 @@
 vim.g.mapleader = " "
 
 local keymap = vim.keymap
+local builtin = require('telescope.builtin')
 
 --keymap.set("n", "<leader>to", ":NvimTreeOpen<CR>")
 --keymap.set("n", "<leader>te", ":NvimTreeClose<CR>")
@@ -33,3 +34,5 @@ keymap.set("n", "<leader>tc", function()
 		end
 	end
 end)
+
+keymap.set("n", "<leader>ff", builtin.find_files)
